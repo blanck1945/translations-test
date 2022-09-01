@@ -15,7 +15,7 @@ module.exports = {
     locales: ["en", "es"],
   },
   localeExtension: "js",
-  //react: { useSuspense: false },
+  react: { useSuspense: false },
   // localePath,
   reloadOnPrerender: process.env.NODE_ENV === "development",
 };
