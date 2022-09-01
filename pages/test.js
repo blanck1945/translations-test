@@ -10,6 +10,7 @@ const Test = () => {
     <div>
       <p>{t("admin")}</p>
       <p>{t("madison")}</p>
+      <p>TEst change</p>
     </div>
   );
 };
