@@ -20,7 +20,7 @@ export const getServerSideProps = async (ctx) => {
   try {
     return {
       props: {
-        ...(await serverSideTranslations("en", ["common"])),
+        ...(await serverSideTranslations(ctx.locale, ["common"])),
       },
     };
   } catch (err) {

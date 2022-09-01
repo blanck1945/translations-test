@@ -1,5 +1,5 @@
 // const fs = require("fs");
-// const path = require("path");
+const path = require("path");
 
 // const localePath = "./i18n/locales";
 // const locales = fs.readdirSync(localePath);
@@ -13,6 +13,7 @@ module.exports = {
   i18n: {
     defaultLocale: "en",
     locales: ["en", "es"],
+    localePath: path.resolve("./public/locales"),
   },
   localeExtension: "js",
   react: { useSuspense: false },
